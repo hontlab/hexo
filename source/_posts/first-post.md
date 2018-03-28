@@ -1,7 +1,8 @@
 ---
 title: first-post
 date: 2017-12-24 23:56:27
-tags:
+categories : cat1
+tags: [tag1, tag2, tag3]
 ---
 
 ## 제목

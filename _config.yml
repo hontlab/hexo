@@ -79,3 +79,8 @@ theme: simple
 deploy:
   type: git
   repo: https://github.com/hontlab/hontlab.github.io.git
+
+# Search
+search:
+  path: search.xml
+  field: post
