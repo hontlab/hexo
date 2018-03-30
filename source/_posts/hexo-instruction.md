@@ -27,7 +27,7 @@ tags: [hexo, 명령어]
 
 <h2>원격저장소에 업로드</h2>
 <pre>hexo d</pre>
-<p>만약 fatal:HttpRequestException encountered. 오류 발생할 경우, 윈도우 보안 관련 이슈로 윈도우에서 공식적으로 제공하는 <a href="https://github.com/Microsoft/Git-Credential-Manager-for-Windows/releases/tag/v1.14.0" target="_blank" class="highlight">Git Credential Manager For Windows v.1.14.0(GCMW-1.14.0.exe)</a> 다운받아 설치하면 해결 가능</p>
+<p>만약 fatal:HttpRequestException encountered. 오류 발생할 경우, 윈도우 보안 관련 이슈로 윈도우에서 공식적으로 제공하는 <a href="https://github.com/Microsoft/Git-Credential-Manager-for-Windows/releases/tag/v1.14.0" target="_blank">Git Credential Manager For Windows v.1.14.0(GCMW-1.14.0.exe)</a> 다운받아 설치하면 해결 가능</p>
 
 {% endraw %}
 
