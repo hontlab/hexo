@@ -5,14 +5,15 @@
 # Site
 title: hontlab
 subtitle: Stay research. Stay record.
-description:
+description: Stay research. Stay record.
 author: hont
-language: en
+language: ko
 timezone:
+cover: /img/logo.png
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://hontlab.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -84,3 +85,27 @@ deploy:
 search:
   path: search.xml
   field: post
+
+# hexo-autonofollow
+nofollow:
+  enable: true
+  exclude:  
+
+# sitemap auto generator(hexo-generator-seo-friendly-sitemap)
+sitemap:
+  path: sitemap.xml
+
+# rss feed auto generator(hexo-generator-feed)
+feed:
+  type: atom
+  path: feed.xml
+  limit: false
+  hub:
+
+plugins: hexo-generator-robotstxt
+
+# robots.txt
+robotstxt:
+  User-agent: '*'
+  Allow: /
+  Sitemap: /sitemap.xml    

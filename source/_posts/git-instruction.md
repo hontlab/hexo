@@ -18,6 +18,9 @@ tags: [git, 명령어]
 <h3>이후</h3>
 <pre>git pull</pre>
 
+<h2>git 설정 정보 확인</h2>
+<pre>git config --list</pre>
+
 <h2>git 업로드 전 수정 및 삭제 파일 감지</h2>
 <pre>git status</pre>
 
