@@ -3,6 +3,7 @@ title: git 명령어 정리
 date: 2018-03-29 12:05:41
 categories : git
 tags: [git, 명령어]
+description: git 명령어, 원격저장소 설정, 저장, 업로드, 다운로드 등 명령어가 있습니다.
 ---
 {% raw %}
 

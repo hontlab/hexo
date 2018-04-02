@@ -3,6 +3,7 @@ title: hexo 명령어 정리
 date: 2018-03-29 15:22:11
 categories: hexo
 tags: [hexo, 명령어]
+description: hexo 명령어, 설치, 새포스트, 로컬서버, 생성, 배포 등 명령어가 있습니다.
 ---
 {% raw %}
 

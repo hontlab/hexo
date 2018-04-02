@@ -3,6 +3,7 @@ title: md(markdown)에 html태그 사용하는 방법
 date: 2018-03-29 14:19:02
 categories: hexo
 tags: [hexo, md, html]
+description: md를 그대로 사용할 경우 html태그가 제대로 파싱되지 않는 불편함이 있습니다. hexo에서 제공하는 Tag Plugins을 사용하면 됩니다. 결국 raw라는 태그로 감싸서 사용하면 html태그로 인식한다는 것입니다.
 ---
 {% raw %}
 <h2>문제상황</h2>
