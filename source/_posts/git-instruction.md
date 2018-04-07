@@ -13,6 +13,9 @@ description: git 명령어, 원격저장소 설정, 저장, 업로드, 다운로
 <h2>원격저장소 정보 세팅</h2>
 <pre>git remote add origin (원격저장소 url)</pre>
 
+<h2>원격저장소 정보 수정</h2>
+<pre>git remote set-url origin (수정할 원격저장소 url)</pre>
+
 <h2>원격저장소에서 다운로드 할 경우</h2>
 <h3>최초</h3>
 <pre>git clone (원격저장소 url)</pre>
