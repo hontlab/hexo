@@ -12,7 +12,7 @@ description: hexo 명령어, 설치, 새포스트, 로컬서버, 생성, 배포 
 
 <h2>node.js 모듈 설치</h2>
 <pre>npm install</pre>
-<p>hexo 먼저 설치하고 진행해야, package.json을 참고하여 hexo에 필요한 모듈을 설치합니다.</p>
+<p>hexo 먼저 설치하고 진행해야, package.json을 참고하여 hexo에 필요한 모듈을 설치한다.</p>
 
 <h2>새포스트 만들기</h2>
 <pre>hexo new post (포스트명)</pre>
