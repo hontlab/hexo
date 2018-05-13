@@ -1,9 +1,9 @@
 ---
-title: 서브라임텍스트3 설치 및 설정
-tags: [서브라임텍스트3, sublimetext3, 플러그인, 설치, 설정]
+title: Sublime Text 3 설치 및 플러그인 설정
+tags: [서브라임텍스트3, Sublime Text 3, 플러그인, 설치, 설정]
 date: 2018-04-17 09:40:29
-categories: 설치
-description:
+categories: setting
+description: 서브라임텍스트는 html, css, 스크립트 등 화면단을 구성할 때 쓰기 편하고 가벼운 툴로써 다양한 단축키 지원 및 태그별 색상이 구분돼 시안성이 좋고, 게다가 무료이기 때문에 많이 사용한다. 아래 링크에서 OS에 맞게 다운로드 받으면 된다. 특별한 부분 없이 next 눌러 설치하면 된다.
 ---
 {% raw %}
 
