@@ -3,7 +3,7 @@ title: JDK 설치 및 환경변수 설정
 tags: [jdk, 환경변수, 설치, 설정]
 date: 2018-05-13 15:13:26
 categories: setting
-description:
+description: JDK 설치 및 환경변수 설정
 ---
 {% raw %}
 
