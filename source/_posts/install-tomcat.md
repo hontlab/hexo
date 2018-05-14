@@ -1,6 +1,6 @@
 ---
 title: Tomcat 설치 및 환경변수 설정
-tags: [tomcat, 설치]
+tags: [tomcat, 톰캣, 설치, 환경변수, 설정]
 date: 2018-05-13 19:18:44
 categories: setting
 description: Tomcat 설치 및 환경변수 설정

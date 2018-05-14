@@ -1,6 +1,6 @@
 ---
 title: eclipse 설치 및 환경 설정 
-tags: [이클립스, eclipse, 설치]
+tags: [이클립스, eclipse, 설치, 설정]
 date: 2018-05-13 23:32:40
 categories: setting
 description: eclipse 설치 및 환경 설정 
