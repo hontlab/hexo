@@ -6,8 +6,12 @@ categories: book
 description: 프로그래머 철학을 만나다
 ---
 {% raw %}
-
 <div class="book_cnt">
+{% endraw %}
+
+![-](https://user-images.githubusercontent.com/34805973/40582094-b4b88828-61a5-11e8-9df8-d10a2e7968d5.jpg)
+
+{% raw %}
 
 <div class="accordion">
 	<div class="accordion-item">
@@ -133,7 +137,7 @@ description: 프로그래머 철학을 만나다
 	</div>
 </div>
 
-
+<div class="book-img">
 {% endraw %}
 
 ![001screenshot_2018-05-07-15-23-24](https://user-images.githubusercontent.com/34805973/39983790-e7971956-5793-11e8-9540-11834e951939.png)
@@ -165,5 +169,6 @@ description: 프로그래머 철학을 만나다
 ![014screenshot_2018-05-13-23-25-16](https://user-images.githubusercontent.com/34805973/39983808-e9eba870-5793-11e8-8086-e4ce336c5e64.png)
 
 {% raw %}
+</div>
 </div>
 {% endraw %}

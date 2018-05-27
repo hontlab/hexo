@@ -8,6 +8,11 @@ description:
 {% raw %}
 
 <div class="book_cnt">
+{% endraw %}
+
+![-](https://user-images.githubusercontent.com/34805973/40582285-49805124-61ac-11e8-9600-5128d39dcab1.jpg)
+
+{% raw %}	
 	<div class="accordion">
 		<div class="accordion-item">
 			<a href="#" class="heading">
@@ -144,6 +149,8 @@ description:
 		</div>
 	</div>
 </div>
+
+<div class="book-img">
 {% endraw %}
 
 ![001screenshot_2017-03-18-14-28-22](https://user-images.githubusercontent.com/34805973/39987703-682f9a6e-57a0-11e8-9fce-6522b04e8fa1.png)
@@ -205,10 +212,8 @@ description:
 ![029screenshot_2017-03-28-14-35-59](https://user-images.githubusercontent.com/34805973/39987735-6d344bae-57a0-11e8-9c5f-cfac3c7ca886.png)
 
 
-
-
-
 {% raw %}
+</div>
 </div>
 {% endraw %}
 
