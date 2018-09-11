@@ -29,7 +29,7 @@ description: Tomcat 설치 및 환경변수 설정
 ![_2](https://user-images.githubusercontent.com/34805973/39966203-a50341ca-56e2-11e8-929f-d8b1b8c2313a.PNG)
 
 {% raw %}
-<p>해당하는 파일 다운로드 후 zip파일 압축 푼다.</p>
+<p>해당하는 파일 다운로드 후 zip파일 압축을 풉니다.</p>
 {% endraw %}
 
 ![_3](https://user-images.githubusercontent.com/34805973/39966204-a52e3c68-56e2-11e8-9337-33ffe51e5ba9.PNG)
@@ -37,24 +37,24 @@ description: Tomcat 설치 및 환경변수 설정
 ![_4](https://user-images.githubusercontent.com/34805973/39966205-a5616214-56e2-11e8-8400-ad0fdb86744c.PNG)
 
 {% raw %}
-<p>해당 경로(conf 폴더) 이동하여 <span class="highlight">server.xml</span>을 열어보면 다음과 같이 포트번호가 8080으로 돼있는 것을 확인할 수 있다. 그런데 <span class="highlight">포트번호 8080은 오라클에서 사용하기 때문에 충돌 가능성 때문에, 아래와 같이 80(http포트)으로 바꿔준다.</span></p>
+<p>해당 경로(conf 폴더) 이동하여 <span class="highlight">server.xml</span>을 열어보면 다음과 같이 포트번호가 8080으로 돼있는 것을 확인할 수 있습니다. 그런데 <span class="highlight">포트번호 8080은 오라클에서 사용하기 때문에 충돌 가능성 때문에, 아래와 같이 80(http포트)으로 바꿔줍니다.</span></p>
 {% endraw %}
 
 ![_4_2](https://user-images.githubusercontent.com/34805973/39966206-a58f494a-56e2-11e8-9ec6-e94188b34a0f.PNG)
 
 {% raw %}
-<p>이제는 톰캣이 정상적으로 작동하는 지 확인해보려고 하는데 그 방법은 아래와 같다.</p>
+<p>이제는 톰캣이 정상적으로 작동하는 지 확인해보려고 하는데 그 방법은 아래와 같습니다.</p>
 {% endraw %}
 
 ![_5](https://user-images.githubusercontent.com/34805973/39966207-a5bed318-56e2-11e8-9f4e-63969c32659d.PNG)
 
 {% raw %}
-<p>해당경로(bin폴더)에서 <span class="highlight">startup.bat</span>이라는 배치파일(MS-DOS, OS/2, 윈도우에서 쓰이는 배치 파일(batch file)은 명령 인터프리터에 의해 실행되게끔 고안된 명령어들이 나열되어 있는 텍스트 파일이다.) 더블클릭 하면,</p>
+<p>해당경로(bin폴더)에서 <span class="highlight">startup.bat</span>이라는 배치파일(MS-DOS, OS/2, 윈도우에서 쓰이는 배치 파일(batch file)은 명령 인터프리터에 의해 실행되게끔 고안된 명령어들이 나열되어 있는 텍스트 파일입니다.) 더블클릭 하면,</p>
 {% endraw %}
 ![_6](https://user-images.githubusercontent.com/34805973/39966208-a5eb8534-56e2-11e8-93f8-a17e595e02f1.PNG)
 
 {% raw %}
-<p>위와 같이 배치파일이 실행되는데 실행창에서 오류나 심각 메시지가 나오지 않는지 확인한다.</p>
+<p>위와 같이 배치파일이 실행되는데 실행창에서 오류나 심각 메시지가 나오지 않는지 확인합니다.</p>
 {% endraw %}
 
 ![_7](https://user-images.githubusercontent.com/34805973/39966209-a62b331e-56e2-11e8-8d18-7c332479c866.PNG)
@@ -81,9 +81,9 @@ description: Tomcat 설치 및 환경변수 설정
 ![_10](https://user-images.githubusercontent.com/34805973/39966212-a6d35a94-56e2-11e8-990c-3be0d56d191e.PNG)
 
 {% raw %}
-<p>jdk 설치한 후 jdk 환경변수 설정했다면, 이미 CLASSPATH가 환경변수로 잡혀 있을텐데 그러면 수정 눌러서 다음과 같이 수정 혹은 추가 해준다.</p>
+<p>jdk 설치한 후 jdk 환경변수 설정했다면, 이미 CLASSPATH가 환경변수로 잡혀 있을텐데 그러면 수정 눌러서 다음과 같이 수정 혹은 추가 해줍니다.</p>
 <p>변수 이름 : CLASSPATH <br> 변수 값 : %JAVA_HOME%\jre\lib\rt.jar;%CATALINA_HOME%\lib\servlet-api.jar</p>
-<p>복사해서 붙여 넣으면 \이 아니라 위처럼 나온다.</p>
+<p>복사해서 붙여 넣으면 \이 아니라 위처럼 나옵니다.</p>
 <ul>
 	<li>rt.jar는 lang패키지 클래스, rmi 클래스, 컬렉션 클래스 등 모두 갖고 있는 클래스 압축파일</li>
 	<li>servlet-api.jar는 어플리케이션 서버(확장된 CGI)를 실행하기 위한 서블릿 클래스 등을 갖고 있는 클래스 압축파일</li>

@@ -11,7 +11,7 @@ description: Spring 설치
 	<li>Spring 사이트에서 제공하는 STS(Spring Tool Suite)을 다운</li>
 	<li class="highlight">이클립스에서 플러그인으로 다운</li>
 </ul>
-<p>여기서는 이클립스 마켓을 통해 Spring 플러그인을 다운받아 사용하는 것으로 하겠다.</p>
+<p>여기서는 이클립스 마켓을 통해 Spring 플러그인을 다운받아 사용하는 것으로 하겠습니다.</p>
 {% endraw %}
 
 ![_1](https://user-images.githubusercontent.com/34805973/39974831-29266d50-5766-11e8-9adc-02c3f36a7221.png)
@@ -62,7 +62,7 @@ description: Spring 설치
 ![_2_2](https://user-images.githubusercontent.com/34805973/39975305-ba7ee118-5768-11e8-8665-d7f663958d3d.PNG)
 
 {% raw %}
-<p>Spring으로 프로젝트 기본 세팅이 되니 Legacy로 이름 지었나 보다.</p>
+<p>Spring으로 프로젝트 기본 세팅이 되니 Legacy로 이름 지었나 봅니다.</p>
 {% endraw %}
 
 ![_2](https://user-images.githubusercontent.com/34805973/39974847-3719ce34-5766-11e8-9c4a-53ee8329ae23.PNG)
@@ -107,7 +107,7 @@ description: Spring 설치
 
 {% raw %}
 <p>the required server component failed to start so tomcat is unable to start<br>org.apache.catalina.lifecycleexception: failed to start component [standardserver[8005]]</p>
-<p>아무 오류 없이 나왔다면 다행이지만, 다음과 같이 오류가 났다면 해결법은.. 내가 검색하면서 사용했던 방법을 나열해 본다.</p>
+<p>아무 오류 없이 나왔다면 다행이지만, 다음과 같이 오류가 났다면 해결법은.. 제가 검색하면서 사용했던 방법을 나열해 봅니다.</p>
 <ul>
 	<li>프로젝트와 서버 clean // (필자의 경우) 미해결</li>
 	<li>서버 포트번호 변경 // (필자의 경우) 미해결</li>

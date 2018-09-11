@@ -44,7 +44,7 @@ description: Maven 설치 및 환경 설정
 
 {% raw %}
 <p>Path 환경변수 편집 누르고 새로 만들기해서 <span class="highlight">%MAVEN_HOME%\bin</span></p>
-<p>\ 부분은 복사 붙여넣기 하면 위 화면 처럼 제대로 나온다.</p>
+<p>\ 부분은 복사 붙여넣기 하면 위 화면 처럼 제대로 나옵니다.</p>
 {% endraw %}
 
 ![_5](https://user-images.githubusercontent.com/34805973/39973949-248f36b0-5760-11e8-84e5-9e51c7cb70ce.PNG)
@@ -95,7 +95,7 @@ description: Maven 설치 및 환경 설정
 ![_12](https://user-images.githubusercontent.com/34805973/39973956-25c02850-5760-11e8-801e-77c155b4598d.PNG)
 
 {% raw %}
-<p>setting.xml 파일이 열리고 아래 Source탭을 누른다.</p>
+<p>setting.xml 파일이 열리고 아래 Source탭을 누릅니다.</p>
 {% endraw %}
 
 ![_13](https://user-images.githubusercontent.com/34805973/39973957-25eb8dc4-5760-11e8-953f-e194fdc77180.PNG)
@@ -104,7 +104,7 @@ description: Maven 설치 및 환경 설정
 
 {% raw %}
 <p>빨간 박스 부분을 <span class="highlight">&lt;localRepository&gt; repository 폴더 경로 &lt;/localRepository&gt;</span></p>
-<p>이제 Maven이 이클립스에 잘 설정됐는 지 확인하는 방법으로 아래와 같다.</p>
+<p>이제 Maven이 이클립스에 잘 설정됐는 지 확인하는 방법으로 아래와 같습니다.</p>
 {% endraw %}
 
 ![_15](https://user-images.githubusercontent.com/34805973/39973959-26465b14-5760-11e8-8045-9cfa3812ecba.PNG)
@@ -125,9 +125,9 @@ description: Maven 설치 및 환경 설정
 ![_18](https://user-images.githubusercontent.com/34805973/39973962-26c9cada-5760-11e8-8e50-c8220f8d9d8c.PNG)
 
 {% raw %}
-<p>내가 설정한 경로로 잡혀 있는 것을 확인 할 수 있다.</p>
+<p>내가 설정한 경로로 잡혀 있는 것을 확인 할 수 있습니다.</p>
 <h4>Maven target 폴더 제외</h4>
-<p>svn 사용 시 target 이라는 폴더까지 같이 커밋되지 않기 위해 하는 설정으로, Maven 사용하여 프로젝트 진행하면 target이라는 폴더가 생기는데 프로젝트 컴파일한 파일이 저장된다고 한다. 그런데 프로젝트 형상관리 할 때 컴파일된 결과까지 커밋할 필요 없고 개발소스만 관리되면 되므로 target 폴더를 제외하고자 하는 것.</p>
+<p>svn 사용 시 target 이라는 폴더까지 같이 커밋되지 않기 위해 하는 설정으로, Maven 사용하여 프로젝트 진행하면 target이라는 폴더가 생기는데 프로젝트 컴파일한 파일이 저장된다고 합니다. 그런데 프로젝트 형상관리 할 때 컴파일된 결과까지 커밋할 필요 없고 개발소스만 관리되면 되므로 target 폴더를 제외하고자 하는 것입니다.</p>
 {% endraw %}
 
 ![_19](https://user-images.githubusercontent.com/34805973/39973963-26f4cd8e-5760-11e8-905d-a146c8b87d00.PNG)

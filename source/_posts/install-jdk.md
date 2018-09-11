@@ -37,8 +37,8 @@ description: JDK 설치 및 환경변수 설정
 ![jdk _3](https://user-images.githubusercontent.com/34805973/39964489-b2746888-56c0-11e8-8b8a-81cb1f67b79f.PNG)
 
 {% raw %}
-<p>Java SE(Standard Edition) 버전 선택, EE(Enterprise Edition)는 자바를 이용한 서버측 개발을 위한 플랫폼이라 한다.</p>
-<p>위 페이지에서 맨 아래로 이동하면 jdk 이전버전이 다운 가능하다(여기서는 jdk 1.7버전을 다운)</p>
+<p>Java SE(Standard Edition) 버전 선택, EE(Enterprise Edition)는 자바를 이용한 서버측 개발을 위한 플랫폼이라 합니다.</p>
+<p>위 페이지에서 맨 아래로 이동하면 jdk 이전버전이 다운 가능합니다(여기서는 jdk 1.7버전을 다운)</p>
 {% endraw %}
 
 ![jdk _4](https://user-images.githubusercontent.com/34805973/39964490-b29fb128-56c0-11e8-9820-5012f5bb912c.PNG)
@@ -67,11 +67,11 @@ description: JDK 설치 및 환경변수 설정
 {% raw %}
 <p>명령 프롬프트(CMD)에서 설치된 자바 버전 확인(명령어 <span class="highlight">java -version</span>)</p>
 <p>자바 컴파일러 버전 확인(명령어 <span class="highlight">javac -version</span>) 하려고 했는데 다음과 같이 실행 불가</p>
-<p>jdk 설치에서 끝나는 것이 아니라 환경변수 설정을 해줘야 한다.</p>
+<p>jdk 설치에서 끝나는 것이 아니라 환경변수 설정을 해줘야 합니다.</p>
 
 <h2>JDK 환경변수 설정</h2>
-<p>환경 변수는 말 그대로 변수에 어떤 값을 저장시키고 이를 환경에 저장하는 것, 환경에 저장한다는 말은 그 환경 내의 <span class="highlight">모든 프로그램이 그 변수의 값을 알 수 있게 된다는 뜻</span>, 그러니까 OS와 jdk를 이용하는 모든 프로그램에 jdk가 설치됐다고 알려주는 것으로 이해했다.</p>
-<p><span class="highlight">3가지 환경변수를 설정</span>해야 하는데 다음과 같다.</p>
+<p>환경 변수는 말 그대로 변수에 어떤 값을 저장시키고 이를 환경에 저장하는 것, 환경에 저장한다는 말은 그 환경 내의 <span class="highlight">모든 프로그램이 그 변수의 값을 알 수 있게 된다는 뜻</span>, 그러니까 OS와 jdk를 이용하는 모든 프로그램에 jdk가 설치됐다고 알려주는 것으로 일단 이해했습니다.</p>
+<p><span class="highlight">3가지 환경변수를 설정</span>해야 하는데 다음과 같습니다.</p>
 <ul>
 	<li>첫번째 환경변수, <span class="highlight">JAVA_HOME</span>(뒤이어 설정할 환경변수를 보다 편하게 설정하도록 변수화)</li>
 	<li>두번째 환경변수, <span class="highlight">Path</span>(어느 위치에서도 자바 컴파일(javac) 및 실행(java) 명령어 사용 가능하도록)</li>
@@ -91,7 +91,7 @@ description: JDK 설치 및 환경변수 설정
 ![jdk _10](https://user-images.githubusercontent.com/34805973/39964497-b3d64b92-56c0-11e8-8d2a-a8fcca608c62.PNG)
 
 {% raw %}
-<p>고급 시스템 설정 → 환경 변수 → <span class="highlight">시스템 변수</span>(주의! 위의 사용자 변수가 아니라 아래 시스템 변수이다.) → 새로 만들기</p>
+<p>고급 시스템 설정 → 환경 변수 → <span class="highlight">시스템 변수</span>(주의! 위의 사용자 변수가 아니라 아래 시스템 변수입니다.) → 새로 만들기</p>
 {% endraw %}
 
 ![jdk _11](https://user-images.githubusercontent.com/34805973/39964498-b4069bb2-56c0-11e8-8962-57ee266006f6.PNG)
@@ -106,7 +106,7 @@ description: JDK 설치 및 환경변수 설정
 ![jdk _12](https://user-images.githubusercontent.com/34805973/39964499-b432782c-56c0-11e8-8d19-14b53a8fd011.PNG)
 
 {% raw %}
-<p>Path 환경변수의 경우 이미 있다. 따라서 선택 후 편집을 누른다.</p>
+<p>Path 환경변수의 경우 이미 있습니다. 따라서 선택 후 편집을 누릅니다.</p>
 <p>그리고 창이 뜨면 새로 만들기</p>
 {% endraw %}
 
@@ -114,7 +114,7 @@ description: JDK 설치 및 환경변수 설정
 
 {% raw %}
 <p>%JAVA_HOME%\bin</p>
-<p>복사 후 붙여 넣으면 \가 아니라 위처럼 표시된다.</p>
+<p>복사 후 붙여 넣으면 \가 아니라 위처럼 표시됩니다.</p>
 <h3>CLASSPATH</h3>
 <p class="highlight">컴파일에 필요한 필수 클래스 로드하도록</p>
 {% endraw %}
@@ -129,6 +129,6 @@ description: JDK 설치 및 환경변수 설정
 ![jdk _15](https://user-images.githubusercontent.com/34805973/39964502-b4cacea6-56c0-11e8-8a6b-7b3debce1926.PNG)
 
 {% raw %}
-<p>다시 한번, CMD에서 자바 컴파일 버전 확인(<span class="highlight">javac -version</span>)을 해보면 이제 잘 나오는 것을 확인할 수 있다.</p>
+<p>다시 한번, CMD에서 자바 컴파일 버전 확인(<span class="highlight">javac -version</span>)을 해보면 이제 잘 나오는 것을 확인할 수 있습니다.</p>
 {% endraw %}
 

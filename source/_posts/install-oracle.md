@@ -9,7 +9,7 @@ description: Oracle 설치
 
 {% raw %}
 <p>오라클 사이트(<a href="https://www.oracle.com/index.html" target="_blank">https://www.oracle.com/index.html</a>) 접속하여 파일 다운로드 진행</p>
-<p>여기서는 <span class="highlight">Database 11g Enterprise/Standard Editions</span>을 받는다. 아래 쭉 내려보면 차례차례 이동하여 해당 파일을 바로 받을 수 있는 링크를 걸어놨다.</p>
+<p>여기서는 <span class="highlight">Database 11g Enterprise/Standard Editions</span>을 받는다. 아래 쭉 내려보면 차례차례 이동하여 해당 파일을 바로 받을 수 있는 링크를 걸어놨습니다.</p>
 {% endraw %}
 
 ![_2](https://user-images.githubusercontent.com/34805973/39978332-d4345162-577a-11e8-848b-ed452383e5db.PNG)
@@ -23,23 +23,23 @@ description: Oracle 설치
 {% raw %}
 <p>여기까지의 링크(<a href="http://www.oracle.com/technetwork/database/enterprise-edition/downloads/index.html" target="_blank">http://www.oracle.com/technetwork/database/enterprise-edition/downloads/index.html</a>)</p>
 
-<p>찾아보니 '클라이언트(client)' 버전을 설치해서 DB에 접속 할 수 있지만, <span class="highlight">'데이터베이스(server)' 버전을 설치하면 컴퓨터에서 자신의 DB를 운영/관리할 수 있게 된다.</span></p>
+<p>찾아보니 '클라이언트(client)' 버전을 설치해서 DB에 접속 할 수 있지만, <span class="highlight">'데이터베이스(server)' 버전을 설치하면 컴퓨터에서 자신의 DB를 운영/관리할 수 있게 됩니다.</span></p>
 
 <p>클라이언트는</p>
 <ul>
 	<li>서버 이외의 컴퓨터에서 서버 즉 데이터베이스에 접근하기 위한 프로그램.</li>
-	<li>오라클 서버로 접속하기 위한 매개체로 보면 된다.</li>
-	<li>다른 서버에서 오라클 클라이언트를 설치하고 오라클 서버의 정보를 입력하면 오라클 서버로 접속이 가능하게 된다.</li>
+	<li>오라클 서버로 접속하기 위한 매개체로 보면 됩니다.</li>
+	<li>다른 서버에서 오라클 클라이언트를 설치하고 오라클 서버의 정보를 입력하면 오라클 서버로 접속이 가능하게 됩니다.</li>
 	<li>즉, 오라클 서버가 있고 오라클 클라이언트로 연계하여 사용하는 것.</li>
 </ul>
- <p><span class="highlight">데이터베이스 버전을 설치하면 클라이언트는 추가로 설치할 필요는 없다.</span> (데이터베이스 버전에 클라이언트가 포함되어 있다고 생각하면 된다. 데이터베이스는 설치파일이 약 2GB이며, 클라이언트는 설치파일이 약 1.2GB이다.)</p>
+ <p><span class="highlight">데이터베이스 버전을 설치하면 클라이언트는 추가로 설치할 필요는 없습니다.</span> (데이터베이스 버전에 클라이언트가 포함되어 있다고 생각하면 됩니다. 데이터베이스는 설치파일이 약 2GB이며, 클라이언트는 설치파일이 약 1.2GB입니다.)</p>
 
 {% endraw %}
 
 ![_6](https://user-images.githubusercontent.com/34805973/39978337-d4cf9b7c-577a-11e8-81a5-e1c4ae8579b3.PNG)
 
 {% raw %}
-<p>다운 받으려면, 오라클 로그인 해야 한다.</p>
+<p>다운 받으려면, 오라클 로그인을 해야 합니다.</p>
 {% endraw %}
 
 ![_7](https://user-images.githubusercontent.com/34805973/39978338-d4f4e620-577a-11e8-87e6-db6255798fd1.PNG)
@@ -50,7 +50,7 @@ description: Oracle 설치
 
 
 {% raw %}
-<p>두 개의 zip파일 압축을 풀면, database라는 하나의 폴더에 함께 압축이 풀린다. 이전에는 서로 다른 곳에 풀려서 한 폴더로 옮겨줘야 했다는데 지금은 개선된 것 같다.</p>
+<p>두 개의 zip파일 압축을 풀면, database라는 하나의 폴더에 함께 압축이 풀립니다. 이전에는 서로 다른 곳에 풀려서 한 폴더로 옮겨줘야 했다는데 지금은 개선된 것 같습니다.</p>
 {% endraw %}
 
 ![_10](https://user-images.githubusercontent.com/34805973/39978290-c150fc76-577a-11e8-9a82-42f256354536.PNG)
@@ -76,7 +76,7 @@ description: Oracle 설치
 
 {% raw %}
 <p>관리자 계정명과 비밀번호 입력</p>
-<p>여기선, root로 했는데 보통 sys로 많이 하는 것 같다.</p>
+<p>여기선, root로 했는데 보통 sys로 많이 하는 것 같습니다.</p>
 {% endraw %}
 
 ![_18](https://user-images.githubusercontent.com/34805973/39978298-c28abb9a-577a-11e8-93ff-f06b83f3e3b7.PNG)
@@ -112,19 +112,19 @@ description: Oracle 설치
 
 {% raw %}
 <p>사용자 계정 로그인 명령어(<span class="highlight">conn scott/tiger</span>) 수행(conn 계정명/비밀번호)</p>
-<p>비밀번호가 만료됐다고 비밀번호 바꾸라 하니 바꾼다.</p>
+<p>비밀번호가 만료됐다고 비밀번호 바꾸라 하니 바꿉니다.</p>
 {% endraw %}
 
 ![_27](https://user-images.githubusercontent.com/34805973/39978307-c3e6daaa-577a-11e8-83d6-6e9ed4c19772.PNG)
 
 {% raw %}
 <p>scott 데이터 조회를 위한 명령어(<span class="highlight">select * from dept;</span>) 수행</p>
-<p>다음과 같이 부서 데이터가 조회되는 것을 확인할 수 있다.</p>
+<p>다음과 같이 부서 데이터가 조회되는 것을 확인할 수 있습니다.</p>
 {% endraw %}
 
 ![_28](https://user-images.githubusercontent.com/34805973/39978308-c40e148a-577a-11e8-9033-d2d6c44619dc.PNG)
 
 {% raw %}
 <p>종료할 때는 exit를 2번 입력하면 종료</p>
-<p>다음에는 항상 sqlplus 명령창을 통해 DB사용하기 불편하니, DBMS(DataBase Management System)로 많이 쓰이는 Oracle SQL Developer 설치 방법을 포스팅 하고자 한다.</p>
+<p>다음에는 항상 sqlplus 명령창을 통해 DB사용하기 불편하니, DBMS(DataBase Management System)로 많이 쓰이는 Oracle SQL Developer 설치 방법을 포스팅 하고자 합니다.</p>
 {% endraw %}

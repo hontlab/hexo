@@ -43,7 +43,7 @@ description: eclipse 설치 및 환경 설정
 
 {% raw %}
 <p>이클립스 설치 완료!</p>
-<p>다운받은 이클립스 zip파일 압축 풀고, eclipse.exe 파일 실행하면 바로 이클립스 실행 가능하나 기본적인 몇가지 사항들 설정하고 사용하려고 한다.</p>
+<p>다운받은 이클립스 zip파일 압축 풀고, eclipse.exe 파일 실행하면 바로 이클립스 실행 가능하나 기본적인 몇가지 사항들 설정하고 사용하려고 합니다.</p>
 <h2>eclipse 설정</h2>
 <h3>memory</h3>
 {% endraw %}
@@ -51,21 +51,21 @@ description: eclipse 설치 및 환경 설정
 ![_5](https://user-images.githubusercontent.com/34805973/39968293-da5b0bfa-5705-11e8-83c7-4523374230d4.PNG)
 
 {% raw %}
-<p>위 이클립스 실행 파일이 있는 폴더에 <span class="highlight">eclipse.ini</span>라는 파일이 있는데 편집기로 열어서 보면 아래쪽에 위와 같이 표시된 부분이 보인다. <span class="highlight">이클립스 실행 시 가용할 최소메모리와 최대메모리를 설정</span>하는 부분이다.</p>
+<p>위 이클립스 실행 파일이 있는 폴더에 <span class="highlight">eclipse.ini</span>라는 파일이 있는데 편집기로 열어서 보면 아래쪽에 위와 같이 표시된 부분이 보입니다. <span class="highlight">이클립스 실행 시 가용할 최소메모리와 최대메모리를 설정</span>하는 부분입니다.</p>
 {% endraw %}
 
 ![_5_2](https://user-images.githubusercontent.com/34805973/39968367-a4dece20-5706-11e8-9b58-ee2bfae58c8e.PNG)
 
 {% raw %}
-<p>램8g 기준으로 다음과 같이 1024, 2048로 사용하는 것을 추천한다고 한다.</p>
+<p>램8g 기준으로 다음과 같이 1024, 2048로 사용하는 것을 추천한다고 합니다.</p>
 {% endraw %}
 
 ![_6](https://user-images.githubusercontent.com/34805973/39968294-da835786-5705-11e8-8321-e1b2ba9d405d.PNG)
 
 {% raw %}
-<p>이클립스 실행하여, Windows → Preferences → General → <span class="highlight">Show heap status</span> 선택하고 저장하면 우측하단에 늘려준 힙메모리와 사용량을 확인 할 수 있다. 휴지통 버튼을 누르면 힙메모리가 비워진다.</p>
+<p>이클립스 실행하여, Windows → Preferences → General → <span class="highlight">Show heap status</span> 선택하고 저장하면 우측하단에 늘려준 힙메모리와 사용량을 확인 할 수 있습니다. 휴지통 버튼을 누르면 힙메모리가 비워집니다.</p>
 <h3>encoding</h3>
-<p><span class="highlight">인코딩을 UTF-8로 바꿔주기 위한 설정</span>으로, 사전에 바꿔놓은 프로젝트 설정 자체를 export한 파일이 있어 이를 다시 import하여 사용, 이 방법이 아니라면 일일이 다 직접 바꿔야 하는 불편함이 있다.</p>
+<p><span class="highlight">인코딩을 UTF-8로 바꿔주기 위한 설정</span>으로, 사전에 바꿔놓은 프로젝트 설정 자체를 export한 파일이 있어 이를 다시 import하여 사용, 이 방법이 아니라면 일일이 다 직접 바꿔야 하는 불편함이 있습니다.</p>
 <p class="highlight">주의 할 점은 workspace가 바뀌면 다시 import해서 설정해야 한다는 것</p>
 {% endraw %}
 
@@ -86,7 +86,7 @@ description: eclipse 설치 및 환경 설정
 
 {% raw %}
 <p>Windows → Preferences → encoding 검색 → 우측 파일 선택</p>
-<p>이렇게 하나하나 눌러보면 다 기본 인코딩 값이 UTF-8로 바뀐 것을 확인 할 수 있다. 만약 설정파일을 import하지 않았더라면, 일일이 다 바꿨어야 하는 불편함이 여기에 있다.</p>
+<p>이렇게 하나하나 눌러보면 다 기본 인코딩 값이 UTF-8로 바뀐 것을 확인 할 수 있습니다. 만약 설정파일을 import하지 않았더라면, 일일이 다 바꿨어야 하는 불편함이 여기에 있습니다.</p>
 <h3>jdk</h3>
 {% endraw %}
 
@@ -125,7 +125,7 @@ description: eclipse 설치 및 환경 설정
 
 {% raw %}
 <p>이클립스 하단 Servers 탭메뉴에서 서버 추가</p>
-<p>이제 서버가 잘 추가됐는지 확인을 위해 테스트 프로젝트를 만들어보자.</p>
+<p>이제 서버가 잘 추가됐는지 확인을 위해 테스트 프로젝트를 만들어 보겠습니다.</p>
 {% endraw %}
 
 ![_16](https://user-images.githubusercontent.com/34805973/39968304-dc4014a6-5705-11e8-9084-f228a99f06e9.PNG)
@@ -145,10 +145,10 @@ description: eclipse 설치 및 환경 설정
 ![_17_2](https://user-images.githubusercontent.com/34805973/39968308-dcc0c092-5705-11e8-97af-1852f543a3e0.PNG)
 
 {% raw %}
-<p>이건 welcome-file이라 해서 기본적으로 서버 실행 후 보여줄 기본페이지를 나타내고 있다. 여기서 테스트는 이 페이지들 말고 새로 newFile.jsp를 만들어 테스트 해볼 예정</p>
+<p>이건 welcome-file이라 해서 기본적으로 서버 실행 후 보여줄 기본페이지를 나타내고 있습니다. 여기서 테스트는 이 페이지들 말고 새로 newFile.jsp를 만들어 테스트 해볼 예정</p>
 
 <p>테스트에 앞서 아래 브라우저 설정을 통해 서버가 구동됐을 때 작동할 브라우저 선택</p>
-<p>이 설정을 하지 않으면 이클립스 내부(internal) 브라우저가 작동하는데, 작업의 편의를 위해 외부(external) 브라우저 크롬으로 바꿀 생각이다.</p>
+<p>이 설정을 하지 않으면 이클립스 내부(internal) 브라우저가 작동하는데, 작업의 편의를 위해 외부(external) 브라우저 크롬으로 바꿀 생각입니다.</p>
 
 <h3>browser</h3>
 {% endraw %}
@@ -162,19 +162,19 @@ description: eclipse 설치 및 환경 설정
 ![_19](https://user-images.githubusercontent.com/34805973/39968310-dd1a382a-5705-11e8-8308-07f141e2b4c0.PNG)
 
 {% raw %}
-<p>설치경로는 크롬에 마우스 오른쪽버튼 눌러 속성에서 대상의 내용을 가져오면 되고 <span class="highlight">앞뒤로 "는 빼야 한다.</span></p>
+<p>설치경로는 크롬에 마우스 오른쪽버튼 눌러 속성에서 대상의 내용을 가져오면 되고 <span class="highlight">앞뒤로 "는 빼야 합니다.</span></p>
 {% endraw %}
 
 ![_20](https://user-images.githubusercontent.com/34805973/39968311-dd457148-5705-11e8-99e3-ef3afeeef847.PNG)
 
 {% raw %}
-<p><span class="highlight">Use external web browser를 체크</span>해서 보면, 이제 <span class="highlight">크롬</span>이 브라우저 리스트에 추가된 것을 볼 수 있고 <span class="highlight">체크 후 적용해서 사용하면 된다.</span></p>
+<p><span class="highlight">Use external web browser를 체크</span>해서 보면, 이제 <span class="highlight">크롬</span>이 브라우저 리스트에 추가된 것을 볼 수 있고 <span class="highlight">체크 후 적용해서 사용하면 됩니다.</span></p>
 {% endraw %}
 
 ![_21](https://user-images.githubusercontent.com/34805973/39968312-dd6e4140-5705-11e8-82bb-1c8bb6075f5f.PNG)
 
 {% raw %}
-<p>이제 테스트 파일을 만들어보자.</p>
+<p>이제 테스트 파일을 만들어 보겠습니다.</p>
 <p>webContent → new → JSP File</p>
 {% endraw %}
 
@@ -198,7 +198,7 @@ description: eclipse 설치 및 환경 설정
 ![_24](https://user-images.githubusercontent.com/34805973/39968315-dde55802-5705-11e8-8dd2-578b4f454e18.PNG)
 
 {% raw %}
-<p>다음과 같이 url통해 접근하면 제대로 테스트 내용이 보이는 것을 확인 할 수 있다.</p>
+<p>다음과 같이 url통해 접근하면 제대로 테스트 내용이 보이는 것을 확인 할 수 있습니다.</p>
 <p>이로써, 이클립스 설치 및 설정 완료!</p>
 {% endraw %}
 
